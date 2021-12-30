@@ -53,7 +53,7 @@ class _PrimeiraTelaQueApareceCelular extends StatelessWidget {
               SizedBox(
                 height: 300,
                 width: 280,
-                child: Image.asset('binancelogo.jpeg'),
+                child: Image.asset('assets/Binancelogo.jpeg'),
               ),
               SizedBox(
                 height: 30,
@@ -115,7 +115,7 @@ class _PrimeiraTelaQueApareceTablet extends StatelessWidget {
                 SizedBox(
                   height: 300,
                   width: 280,  //'assets/LifecoinLogocopy.jpeg'
-                  child: Image.asset('assets/binancelogo.jpeg'),
+                  child: Image.asset('assets/Binancelogo.jpeg'),
 
                 ),
               ],
@@ -212,7 +212,7 @@ class _PrimeiraTelaQueApareceMonitor extends StatelessWidget {
                 SizedBox(
                 height: 300,
                 width: 280,
-                child: Image.asset('binancelogo.jpeg'),
+                child: Image.asset('assets/Binancelogo.jpeg'),
                 ),
 
                 SizedBox(

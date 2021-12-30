@@ -25,29 +25,25 @@ class _NavigationBarCelular extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      height: 100,
-      child: Row(
+      height: 70,
+      child: Row(mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           SizedBox(
-            height: 100,
-            width: 40,
+              height: 80,
+              width: 65,
+            child: Image.asset('LifecoinLogocopy.jpeg'),
           ),
           SizedBox(
-              height: 100,
-              width: 80,
-            child: Image.asset('../../assets/LifecoinLogocopy.jpeg'),
-          ),
-          SizedBox(
-              height: 100,
-              width: 150,
+              height: 70,
+              width: 135,
             child: Center(
             child: Text('LIFECOIN',
                 style: TextStyle(color: Color(0xff4cf2c7),
                     fontSize: 31.0,fontWeight: FontWeight.bold)),
           )),
           SizedBox(
-            height: 100,
-            width: 20,
+            height: 70,
+            width: 15,
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -57,12 +53,12 @@ class _NavigationBarCelular extends StatelessWidget {
                 shape: RoundedRectangleBorder( //to set border radius to button
                     borderRadius: BorderRadius.circular(30)
                 ),
-                padding: EdgeInsets.all(20) //content padding inside button
+                padding: EdgeInsets.all(15) //content padding inside button
             ),
             onPressed: (){
               _launchURLPancake();
             },
-            child: Text(' BUY ',
+            child: Text('BUY',
                 style: TextStyle(color: Color(0xff4cf2c7),
                     fontSize: 27.0,fontWeight: FontWeight.bold)),
           )
@@ -94,7 +90,7 @@ class _NavigationBarTabletTablet extends StatelessWidget {
           SizedBox(
             height: 80,
             width: 110,
-            child: Image.asset('../../assets/LifecoinLogocopy.jpeg'),
+            child: Image.asset('LifecoinLogocopy.jpeg'),
           ),
           SizedBox(
               height: 100,
@@ -174,7 +170,7 @@ class _NavigationBarMonitor extends StatelessWidget {
           SizedBox(
             height: 100,
             width: 110,
-            child: Image.asset('../../assets/LifecoinLogocopy.jpeg'),
+            child: Image.asset('LifecoinLogocopy.jpeg'),
           ),
           SizedBox(
               height: 100,

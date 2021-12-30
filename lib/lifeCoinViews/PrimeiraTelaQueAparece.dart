@@ -20,7 +20,7 @@ class _PrimeiraTelaQueApareceCelular extends PrimeiraTelaQueAparece {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      height:1070,
+      height:840,
       child:
       Row(
         children: <Widget>[
@@ -125,9 +125,9 @@ DONATIONS PROJECT ''',
           ),
 
           SizedBox(
-            height: 450,
-            width: 500,
-            child: Image.asset('../../assets/ImagemPrincipalLifecoincopy.jpeg'),
+            height: 300,
+            width: 280,   // ('assets/ImagemPrincipalLifecoincopy.jpeg')
+            child: Image.asset('ImagemLifeCoinCaixa.jpeg'),
           ),
         ],
       ),
@@ -265,7 +265,7 @@ FOR DONATIONS''',
           ),
           Center(
 
-            child: Image.asset('../../assets/ImagemLifeCoinCaixa.jpeg',
+            child: Image.asset('ImagemLifeCoinCaixa.jpeg',
               height: 500,
               width: 500,),
           ),
@@ -398,7 +398,7 @@ FOR DONATIONS''',
           ),
           Center(
 
-            child: Image.asset('../../assets/ImagemLifeCoinCaixa.jpeg',
+            child: Image.asset('ImagemLifeCoinCaixa.jpeg',
               height: 710,
               width: 710,),
           ),

@@ -17,12 +17,12 @@ class LifeCoinViews extends StatelessWidget{
             child:(Column
               (children:[
 
-              BlankSpaceAtTheBeginning(),
+             BlankSpaceAtTheBeginning(),
               BarraDeNavegacao(),
-              PrimeiraTelaQueAparece(),
-              SegundaTelaQueAparece(),
-              SegundaTelaQueAparecePartDeBaixo(),
-              TerceiraTelaQueAparece(),
+            PrimeiraTelaQueAparece(),
+            SegundaTelaQueAparece(),
+             SegundaTelaQueAparecePartDeBaixo(),
+             TerceiraTelaQueAparece(),
               QuartaTelaQueAparece(),
               QuintaTelaQueAparece(),
     ]
