@@ -30,14 +30,14 @@ class _PrimeiraTelaQueApareceCelular extends PrimeiraTelaQueAparece {
         children: <Widget>[
 
           SizedBox(
-            height: 180,
+            height: 140,
             width: 500,
             child:  Center(
                 child:AutoSizeText(
                     '''WE ARE THE BIGGEST 
-PROJECT FOR DONATIONS''',
+DONATIONS PROJECT ''',
                     style: TextStyle(color: Color(0xff4cf2c7),
-                      fontSize: 30.0,
+                      fontSize: 25.0,
                       fontWeight: FontWeight.bold, )
                 )
             ),
@@ -56,9 +56,9 @@ PROJECT FOR DONATIONS''',
                 onPressed: (){
                   _launchURLHowToBuy();
                 },
-                child: Text('            HOW TO BUY            ',
+                child: Text('   HOW TO BUY   ',
                     style: TextStyle(color: Color(0xff4cf2c7),
-                        fontSize: 30.0,fontWeight: FontWeight.bold)),
+                        fontSize: 25.0,fontWeight: FontWeight.bold)),
               ),
       SizedBox(
         height: 30,
@@ -77,9 +77,9 @@ PROJECT FOR DONATIONS''',
             onPressed: (){
               _launchURLWhitepapers();
             },
-            child: Text('  READ THE WHITEPAPER  ',
+            child: Text('   WHITEPAPER    ',
                 style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 30.0,fontWeight: FontWeight.bold)),
+                    fontSize: 25.0,fontWeight: FontWeight.bold)),
           ),
           SizedBox(
             height: 30,
@@ -98,9 +98,9 @@ PROJECT FOR DONATIONS''',
             onPressed: (){
               _launchURLPancakeBuyHere();
             },
-            child: Text('               BUY HERE               ',
+            child: Text('      BUY HERE      ',
                 style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 30.0,fontWeight: FontWeight.bold)),
+                    fontSize: 25.0,fontWeight: FontWeight.bold)),
           ),
           SizedBox(
             height: 30,
@@ -119,15 +119,15 @@ PROJECT FOR DONATIONS''',
             onPressed: (){
               _launchURLAllsocialmedias();
             },
-            child: Text('    OUR SOCIAL MEDIAS     ',
+            child: Text('SOCIAL MEDIAS',
                 style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 30.0,fontWeight: FontWeight.bold)),
+                    fontSize: 25.0,fontWeight: FontWeight.bold)),
           ),
 
           SizedBox(
             height: 450,
             width: 500,
-            child: Image.asset('ImagemPrincipalLifecoincopy.jpeg'),
+            child: Image.asset('../../assets/ImagemPrincipalLifecoincopy.jpeg'),
           ),
         ],
       ),
@@ -265,7 +265,7 @@ FOR DONATIONS''',
           ),
           Center(
 
-            child: Image.asset('ImagemLifeCoinCaixa.jpeg',
+            child: Image.asset('../../assets/ImagemLifeCoinCaixa.jpeg',
               height: 500,
               width: 500,),
           ),
@@ -398,7 +398,7 @@ FOR DONATIONS''',
           ),
           Center(
 
-            child: Image.asset('ImagemLifeCoinCaixa.jpeg',
+            child: Image.asset('../../assets/ImagemLifeCoinCaixa.jpeg',
               height: 710,
               width: 710,),
           ),

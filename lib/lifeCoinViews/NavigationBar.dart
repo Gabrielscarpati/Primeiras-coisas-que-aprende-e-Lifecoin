@@ -30,28 +30,24 @@ class _NavigationBarCelular extends StatelessWidget {
         children: <Widget>[
           SizedBox(
             height: 100,
-            width: 80,
+            width: 40,
           ),
           SizedBox(
               height: 100,
-              width: 110,
-            child: Image.asset('assets/LifecoinLogocopy.jpeg'),
+              width: 80,
+            child: Image.asset('../../assets/LifecoinLogocopy.jpeg'),
           ),
           SizedBox(
               height: 100,
-              width: 200,
+              width: 150,
             child: Center(
             child: Text('LIFECOIN',
                 style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 45.0,fontWeight: FontWeight.bold)),
+                    fontSize: 31.0,fontWeight: FontWeight.bold)),
           )),
           SizedBox(
             height: 100,
-            width: 350,
-          ),
-          SizedBox(
-            height: 100,
-            width: 40,
+            width: 20,
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -66,9 +62,9 @@ class _NavigationBarCelular extends StatelessWidget {
             onPressed: (){
               _launchURLPancake();
             },
-            child: Text('    BUY    ',
+            child: Text(' BUY ',
                 style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 33.0,fontWeight: FontWeight.bold)),
+                    fontSize: 27.0,fontWeight: FontWeight.bold)),
           )
         ],
       ),
@@ -89,6 +85,7 @@ class _NavigationBarTabletTablet extends StatelessWidget {
       color: Colors.black,
       height: 100,
       child: Row(
+
         children: <Widget>[
           SizedBox(
             height: 100,
@@ -97,7 +94,7 @@ class _NavigationBarTabletTablet extends StatelessWidget {
           SizedBox(
             height: 80,
             width: 110,
-            child: Image.asset('assets/LifecoinLogocopy.jpeg'),
+            child: Image.asset('../../assets/LifecoinLogocopy.jpeg'),
           ),
           SizedBox(
               height: 100,
@@ -113,15 +110,15 @@ class _NavigationBarTabletTablet extends StatelessWidget {
           ),
           TextButton.icon(onPressed: _launchURLTwitter,
             icon:  Icon(FontAwesomeIcons.twitter, color: Color(0xff4cf2c7), size: 60.0),
-            label: Text('      '),
+            label: Text(''),
           ),
           TextButton.icon(onPressed: _launchURLSnap,
               icon:  Icon(FontAwesomeIcons.snapchatGhost, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
+              label: Text('')
           ),
           TextButton.icon(onPressed: _launchURLInsta,
               icon:  Icon(FontAwesomeIcons.instagram, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
+              label: Text('')
           ),
           TextButton.icon(onPressed: _launchURLTelegram,
               icon:  Icon(FontAwesomeIcons.telegram, color: Color(0xff4cf2c7), size: 60.0),
@@ -129,7 +126,7 @@ class _NavigationBarTabletTablet extends StatelessWidget {
           ),
           SizedBox(
             height: 100,
-            width: 25,
+            width: 15,
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -144,7 +141,7 @@ class _NavigationBarTabletTablet extends StatelessWidget {
             onPressed: (){
               _launchURLPancake();
             },
-            child: Text('   BUY   ',
+            child: Text('  BUY  ',
                 style: TextStyle(color: Color(0xff4cf2c7),
                     fontSize: 30.0,fontWeight: FontWeight.bold)),
           )
@@ -168,15 +165,16 @@ class _NavigationBarMonitor extends StatelessWidget {
       color: Colors.black,
       height: 100,
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           SizedBox(
             height: 100,
-            width: 80,
+            width: 50,
           ),
           SizedBox(
             height: 100,
             width: 110,
-            child: Image.asset('assets/LifecoinLogocopy.jpeg'),
+            child: Image.asset('../../assets/LifecoinLogocopy.jpeg'),
           ),
           SizedBox(
               height: 100,
@@ -188,19 +186,19 @@ class _NavigationBarMonitor extends StatelessWidget {
               )),
           SizedBox(
             height: 100,
-            width: 350,
+            width: 315,
           ),
           TextButton.icon(onPressed: _launchURLTwitter,
             icon:  Icon(FontAwesomeIcons.twitter, color: Color(0xff4cf2c7), size: 60.0),
-            label: Text('      '),
+            label: Text('  '),
           ),
           TextButton.icon(onPressed: _launchURLSnap,
               icon:  Icon(FontAwesomeIcons.snapchatGhost, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
+              label: Text('  ')
           ),
           TextButton.icon(onPressed: _launchURLInsta,
               icon:  Icon(FontAwesomeIcons.instagram, color: Color(0xff4cf2c7), size: 60.0),
-              label: Text('      ')
+              label: Text('  ')
           ),
           TextButton.icon(onPressed: _launchURLTelegram,
               icon:  Icon(FontAwesomeIcons.telegram, color: Color(0xff4cf2c7), size: 60.0),
@@ -208,7 +206,7 @@ class _NavigationBarMonitor extends StatelessWidget {
           ),
           SizedBox(
             height: 100,
-            width: 40,
+            width: 35,
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -223,7 +221,7 @@ class _NavigationBarMonitor extends StatelessWidget {
             onPressed: (){
               _launchURLPancake();
             },
-            child: Text('    BUY    ',
+            child: Text('   BUY   ',
                 style: TextStyle(color: Color(0xff4cf2c7),
                     fontSize: 33.0,fontWeight: FontWeight.bold)),
           )
@@ -238,7 +236,7 @@ class _NavigationBarMonitor extends StatelessWidget {
 
 
 void _launchURLTelegram() async {
-  const url = 'https://linktr.ee/LifeCoinOfficial';
+  const url = 'https://linktr.ee/Lifecoin';
   if (await canLaunch(url)) {
     await launch(url);
   } else {

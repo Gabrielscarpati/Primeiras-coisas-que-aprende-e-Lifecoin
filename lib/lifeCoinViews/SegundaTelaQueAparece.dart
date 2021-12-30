@@ -19,7 +19,7 @@ class _PrimeiraTelaQueApareceCelular extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      height: 600,
+      height: 700,
       child:
       Row(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -85,7 +85,7 @@ class _PrimeiraTelaQueApareceTablet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      height: 350,
+      height: 390,
       child:  Column
         (
           children: <Widget>[
@@ -96,19 +96,43 @@ class _PrimeiraTelaQueApareceTablet extends StatelessWidget {
             fontWeight: FontWeight.bold, ))
     ),
 
-        Row
+            Row
+              (
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+
+                SizedBox(
+                    height: 300,
+                    width: 280,
+                    child: Center(
+                        child:Text ('WE ARE REALLY FOCUSED ON DONATIONS', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
+                    )),
+
+                SizedBox(
+                  height: 300,
+                  width: 150, //use the function do adapt screens
+                ),
+                SizedBox(
+                  height: 300,
+                  width: 280,  //'assets/LifecoinLogocopy.jpeg'
+                  child: Image.asset('assets/binancelogo.jpeg'),
+
+                ),
+              ],
+            ),
+    ],
+      ),
+    );
+  }
+}
+
+
+
+
+/*
+Row
         (
         children: <Widget>[
-          SizedBox(
-            height: 300,
-            width: 150, //use the function do adapt screens
-          ),
-          SizedBox(
-              height: 300,
-              width: 280,
-              child:  Center(
-                  child:Text ('WE ARE REALLY FOCUSED ON DONATIONS', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
-              )),
 
           SizedBox(
             height: 300,
@@ -117,24 +141,30 @@ class _PrimeiraTelaQueApareceTablet extends StatelessWidget {
           SizedBox(
             height: 300,
             width: 280,
-            child: Image.asset('binancelogo.jpeg'),
-          ),
-          SizedBox(
-            height: 300,
-            width: 150, //use the function do adapt screens
-          ),
+            child: Center(
+                child:Text ('WE ARE REALLY FOCUSED ON DONATIONS', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
+            )),
 
           SizedBox(
             height: 300,
             width: 150, //use the function do adapt screens
           ),
-        ],
-      ),
-    ],
-      ),
-    );
-  }
-}
+          SizedBox(
+            height: 300,
+            width: 280,
+            child: Image.asset('assets/binancelogo.jpeg'),
+
+            ),
+          SizedBox(
+            height: 300,
+            width: 150, //use the function do adapt screens
+              ),
+            ],
+          ),
+
+ */
+
+
 
 
 
@@ -151,7 +181,7 @@ class _PrimeiraTelaQueApareceMonitor extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      height: 350,
+      height: 390,
       child:
       Column
         (
@@ -164,51 +194,85 @@ class _PrimeiraTelaQueApareceMonitor extends StatelessWidget {
     ),
 
 
-      Row
-        (
-        children: <Widget>[
-          SizedBox(
-            height: 300,
-            width: 150, //use the function do adapt screens
-            ),
-          SizedBox(
-            height: 300,
-            width: 280,
-            child:  Center(
+                Row
+                (mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+
+                SizedBox(
+                height: 300,
+                width: 280,
+                child: Center(
                 child:Text ('WE ARE REALLY FOCUSED ON DONATIONS', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
-            )),
+                )),
 
-          SizedBox(
-            height: 300,
-            width: 150, //use the function do adapt screens
-          ),
-          SizedBox(
-            height: 300,
-            width: 280,
-            child: Image.asset('binancelogo.jpeg'),
-          ),
-          SizedBox(
-            height: 300,
-            width: 150, //use the function do adapt screens
-          ),
-          SizedBox(
-            height: 300,
-            width: 280,
-            child: Center(
+                SizedBox(
+                height: 300,
+                width: 150, //use the function do adapt screens
+                ),
+                SizedBox(
+                height: 300,
+                width: 280,
+                child: Image.asset('binancelogo.jpeg'),
+                ),
+
+                SizedBox(
+                height: 300,
+                width: 150, //use the function do adapt screens
+                ),
+                SizedBox(
+                height: 300,
+                width: 280,
+                child: Center(
                 child:Text ('WE AIM TO PROMOTE EQUALITY IN THE WORLD', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
-            )),
+                )),
 
-          SizedBox(
-            height: 300,
-            width: 150, //use the function do adapt screens
-          ),
-        ],
-      ),
+    ],
+    ),
     ],
       ),
     );
   }
 }
+
+
+/*
+
+Row
+            (mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+
+              SizedBox(
+                  height: 300,
+                  width: 280,
+                  child: Center(
+                      child:Text ('WE ARE REALLY FOCUSED ON DONATIONS', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
+                  )),
+
+              SizedBox(
+                height: 300,
+                width: 150, //use the function do adapt screens
+              ),
+              SizedBox(
+                height: 300,
+                width: 280,
+                child: Image.asset('binancelogo.jpeg'),
+
+                SizedBox(
+                height: 300,
+                width: 150, //use the function do adapt screens
+              ),
+              SizedBox(
+            height: 300,
+            width: 280,
+            child: Center(
+                child:Text ('WE AIM TO PROMOTE EQUALITY IN THE WORLD', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
+            )),
+            ],
+          ),
+
+
+
+ */
 
 
 

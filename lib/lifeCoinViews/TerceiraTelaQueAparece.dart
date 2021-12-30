@@ -26,7 +26,7 @@ class _TerceiraTelaQueApareceCelular extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 800,
+      height: 700,
       color: Colors.black,
       child: Column(
         children: <Widget>[
@@ -109,10 +109,7 @@ COUNTRIES''',
               width: 100,
             ),
           ]),
-          SizedBox(
-            height: 800,
-            width: 50, //use the function do adapt screens
-          ),
+
         ],
       ),
     );
@@ -246,19 +243,17 @@ class _TerceiraTelaQueApareceMonitor extends StatelessWidget {
                         fontSize: 90.0,
                         fontWeight: FontWeight.bold,
                       )))),
-          Row(children: <Widget>[
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+
             SizedBox(
-              height: 800,
-              width: 50,
-            ),
-            SizedBox(
-              height: 800,
+              height: 700,
               width: 650,
               child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
             ),
             SizedBox(
               height: 800,
-              width: 100,
+              width: 60,
             ),
             Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
               Text('''PROJECT 
@@ -316,10 +311,6 @@ COUNTRIES''',
                 width: 100,
               ),
             ]),
-            SizedBox(
-              height: 800,
-              width: 50, //use the function do adapt screens
-            ),
           ]),
         ],
       ),

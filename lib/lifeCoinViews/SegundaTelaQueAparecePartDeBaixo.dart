@@ -19,7 +19,7 @@ class _SegundaTelaQueAparecePartDeBaixoCelular extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black,
-      height: 580,
+      height: 633,
       child:
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -77,18 +77,14 @@ class _SegundaTelaQueAparecePartDeBaixoTablet extends StatelessWidget {
         children: <Widget> [
 
         Row
-        (
+        (mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
 
           SizedBox(
             height: 300,
-            width: 150, //use the function do adapt screens
-          ),
-          SizedBox(
-            height: 300,
             width: 280,
             child: Center(
-                child:Text ('THE MOST POPULAR BLOCKCHAIN IN THE WORLD', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 35.0,fontWeight: FontWeight.bold, ))
+                child:Text ('WE USE THE MOST POPULAR BLOCKCHAIN IN THE WORLD', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
             )),
 
           SizedBox(
@@ -100,35 +96,18 @@ class _SegundaTelaQueAparecePartDeBaixoTablet extends StatelessWidget {
             width: 280,
             child: Image.asset('assets/LifecoinLogocopy.jpeg'),
 
-    ),
-          SizedBox(
-            height: 300,
-            width: 150, //use the function do adapt screens
               ),
             ],
           ),
           Row
-            (
+            (mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              SizedBox(
-                height: 300,
-                width: 210, //use the function do adapt screens
-              ),
-
-              SizedBox(
-                height: 300,
-                width: 150, //use the function do adapt screens
-              ),
               SizedBox(
                   height: 300,
                   width: 300,
                   child: Center(
                       child:Text ('WE AIM TO PROMOTE EQUALITY IN THE WORLD', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
                   )),
-              SizedBox(
-                height: 300,
-                width: 150, //use the function do adapt screens
-              ),
             ],
           ),
         ],
@@ -148,22 +127,14 @@ class _SegundaTelaQueAparecePartDeBaixoMonitor extends StatelessWidget {
       height: 350,
       child:
           Row
-            (
+            (mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              SizedBox(
-                height: 300,
-                width: 210, //use the function do adapt screens
-              ),
 
-              SizedBox(
-                height: 300,
-                width: 150, //use the function do adapt screens
-              ),
               SizedBox(
                   height: 300,
                   width: 280,
                   child: Center(
-                      child:Text ('THE MOST POPULAR BLOCKCHAIN IN THE WORLD', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 35.0,fontWeight: FontWeight.bold, ))
+                      child:Text ('THE MOST POPULAR BLOCKCHAIN IN THE WORLD', style: TextStyle(color: Color(0xff4cf2c7), fontSize: 30.0,fontWeight: FontWeight.bold, ))
                   )),
 
               SizedBox(
@@ -175,10 +146,6 @@ class _SegundaTelaQueAparecePartDeBaixoMonitor extends StatelessWidget {
                 width: 280,
                 child: Image.asset('assets/LifecoinLogocopy.jpeg'),
 
-              ),
-              SizedBox(
-                height: 300,
-                width: 150, //use the function do adapt screens
               ),
             ],
           ),
