@@ -47,7 +47,7 @@ class _TerceiraTelaQueApareceCelular extends StatelessWidget {
           SizedBox(
             height: 300,
             width: 280,
-            child: Image.asset('assets/ImagehandsUpCopy.jpeg'),
+            child: Image.asset('ImagehandsUpCopy.jpeg'),
           ),
           SizedBox(
             height: 0,

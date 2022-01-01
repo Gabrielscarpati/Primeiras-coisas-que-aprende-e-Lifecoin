@@ -24,26 +24,26 @@ class _PrimeiraTelaQueApareceCelular extends PrimeiraTelaQueAparece {
       child:
       Row(
         children: <Widget>[
-      Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
 
-        children: <Widget>[
+            children: <Widget>[
 
-          SizedBox(
-            height: 140,
-            width: 500,
-            child:  Center(
-                child:AutoSizeText(
-                    '''WE ARE THE BIGGEST 
+              SizedBox(
+                height: 140,
+                width: 500,
+                child:  Center(
+                    child:AutoSizeText(
+                        '''WE ARE THE BIGGEST 
 DONATIONS PROJECT ''',
-                    style: TextStyle(color: Color(0xff4cf2c7),
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold, )
-                )
-            ),
-          ),
+                        style: TextStyle(color: Color(0xff4cf2c7),
+                          fontSize: 25.0,
+                          fontWeight: FontWeight.bold, )
+                    )
+                ),
+              ),
 
-          ElevatedButton( //Use opacity
+              ElevatedButton( //Use opacity
                 style: ElevatedButton.styleFrom(
                     primary: Colors.black, //background color of button
                     side: BorderSide(width:3, color:Color(0xff4cf2c7), ), //border width and color
@@ -60,82 +60,85 @@ DONATIONS PROJECT ''',
                     style: TextStyle(color: Color(0xff4cf2c7),
                         fontSize: 25.0,fontWeight: FontWeight.bold)),
               ),
-      SizedBox(
-        height: 30,
-        width: 50,
-      ),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-                primary: Colors.black, //background color of button
-                side: BorderSide(width:3, color:Color(0xff4cf2c7)), //border width and color
-                elevation: 3, //elevation of button
-                shape: RoundedRectangleBorder( //to set border radius to button
-                    borderRadius: BorderRadius.circular(40)
+              SizedBox(
+                height: 30,
+                width: 50,
+              ),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.black, //background color of button
+                    side: BorderSide(width:3, color:Color(0xff4cf2c7)), //border width and color
+                    elevation: 3, //elevation of button
+                    shape: RoundedRectangleBorder( //to set border radius to button
+                        borderRadius: BorderRadius.circular(40)
+                    ),
+                    padding: EdgeInsets.all(30) //content padding inside button
                 ),
-                padding: EdgeInsets.all(30) //content padding inside button
-            ),
-            onPressed: (){
-              _launchURLWhitepapers();
-            },
-            child: Text('   WHITEPAPER    ',
-                style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 25.0,fontWeight: FontWeight.bold)),
-          ),
-          SizedBox(
-            height: 30,
-            width: 50,
-          ),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-                primary: Colors.black, //background color of button
-                side: BorderSide(width:3, color:Color(0xff4cf2c7)), //border width and color
-                elevation: 3, //elevation of button
-                shape: RoundedRectangleBorder( //to set border radius to button
-                    borderRadius: BorderRadius.circular(40)
+                onPressed: (){
+                  _launchURLWhitepapers();
+                },
+                child: Text('   WHITEPAPER    ',
+                    style: TextStyle(color: Color(0xff4cf2c7),
+                        fontSize: 25.0,fontWeight: FontWeight.bold)),
+              ),
+              SizedBox(
+                height: 30,
+                width: 50,
+              ),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.black, //background color of button
+                    side: BorderSide(width:3, color:Color(0xff4cf2c7)), //border width and color
+                    elevation: 3, //elevation of button
+                    shape: RoundedRectangleBorder( //to set border radius to button
+                        borderRadius: BorderRadius.circular(40)
+                    ),
+                    padding: EdgeInsets.all(30) //content padding inside button
                 ),
-                padding: EdgeInsets.all(30) //content padding inside button
-            ),
-            onPressed: (){
-              _launchURLPancakeBuyHere();
-            },
-            child: Text('      BUY HERE      ',
-                style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 25.0,fontWeight: FontWeight.bold)),
-          ),
-          SizedBox(
-            height: 30,
-            width: 50,
-          ),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-                primary: Colors.black, //background color of button
-                side: BorderSide(width:3, color:Color(0xff4cf2c7)), //border width and color
-                elevation: 3, //elevation of button
-                shape: RoundedRectangleBorder( //to set border radius to button
-                    borderRadius: BorderRadius.circular(40)
+                onPressed: (){
+                  _launchURLPancakeBuyHere();
+                },
+                child: Text('      BUY HERE      ',
+                    style: TextStyle(color: Color(0xff4cf2c7),
+                        fontSize: 25.0,fontWeight: FontWeight.bold)),
+              ),
+              SizedBox(
+                height: 30,
+                width: 50,
+              ),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.black, //background color of button
+                    side: BorderSide(width:3, color:Color(0xff4cf2c7)), //border width and color
+                    elevation: 3, //elevation of button
+                    shape: RoundedRectangleBorder( //to set border radius to button
+                        borderRadius: BorderRadius.circular(40)
+                    ),
+                    padding: EdgeInsets.all(30) //content padding inside button
                 ),
-                padding: EdgeInsets.all(30) //content padding inside button
-            ),
-            onPressed: (){
-              _launchURLAllsocialmedias();
-            },
-            child: Text('SOCIAL MEDIAS',
-                style: TextStyle(color: Color(0xff4cf2c7),
-                    fontSize: 25.0,fontWeight: FontWeight.bold)),
-          ),
+                onPressed: (){
+                  _launchURLAllsocialmedias();
+                },
+                child: Text('SOCIAL MEDIAS',
+                    style: TextStyle(color: Color(0xff4cf2c7),
+                        fontSize: 25.0,fontWeight: FontWeight.bold)),
+              ),
 
-          SizedBox(
-            height: 300,
-            width: 280,   // ('assets/ImagemPrincipalLifecoincopy.jpeg')
-            child: Image.asset('ImagemLifeCoinCaixa.jpeg'),
+              SizedBox(
+                height: 300,
+                width: 280,   // ('assets/ImagemPrincipalLifecoincopy.jpeg')
+                child: Image.asset('ImagemLifeCoinCaixa.jpeg'),
+              ),
+            ],
           ),
         ],
-      ),
-      ],
       ),
     );
   }
 }
+
+
+
 
 
 
@@ -420,7 +423,7 @@ void _launchURLHowToBuy() async {
 
 
 void _launchURLAllsocialmedias() async {
-  const url = 'https://linktr.ee/Lifecoin';
+  const url = 'https://linktr.ee/Lifecoin_allsocial';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
